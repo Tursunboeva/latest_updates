@@ -1,0 +1,189 @@
+.pages_wrapper {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin-bottom: 46px;
+    gap: 20px; 
+}
+
+.first_page {
+    max-width: 210px;
+    padding: 15px 15px 15px 0;
+    border-right: 2px solid #ADADAD40;
+    transition: all 0.3s ease;
+}
+
+.first_page:hover {
+    border-right-color: #EE5626;
+}
+
+.avatar {
+    display: flex;
+    align-items: center; 
+    gap: 7px;
+    margin-bottom: 24px;
+    transition: transform 0.3s ease;
+}
+
+.avatar:hover {
+    transform: scale(1.05);
+}
+
+.first_page h2 {
+    font-size: 20px; 
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.first_page h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 50px;
+    height: 2px;
+    background: #EE5626;
+    transition: width 0.3s ease;
+}
+
+.first_page h2:hover::after {
+    width: 100%;
+}
+
+.first_page p {
+    font-size: 12px; 
+    letter-spacing: 1px; 
+    margin-bottom: 7px;
+}
+
+.box {
+    border-bottom: 2px solid #ADADAD40;
+    padding-bottom: 10px; 
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: #F5F5F5;
+}
+
+.secondary_page {
+    max-width: 275px;
+    height: auto;
+    width: 100%;
+}
+
+.secondary_page img {
+    padding: 14px;
+    max-width: 100%; 
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.secondary_page img:hover {
+    opacity: 0.8;
+}
+
+.box2 {
+    padding: 0 14px;
+}
+
+.box2 p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.box2 .avatar {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ADADAD40;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+}
+
+.box2 .avatar:hover {
+    transform: scale(1.05);
+}
+
+.third_page {
+    max-width: 190px;
+    padding: 10px;
+    margin-right: 5px;
+    border-left: 2px solid #ADADAD40;
+    transition: all 0.3s ease;
+}
+
+.third_page:hover {
+    border-left-color: #EE5626;
+}
+
+.title_box {
+    margin-bottom: 17px;
+    position: relative;
+}
+
+.title_box::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 2px;
+    background: #EE5626;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.title_box:hover::before {
+    transform: scaleX(1);
+}
+
+.box3 h3 {
+    font-size: 18px; 
+    margin-top: 15px;
+}
+
+.title_box span {
+    color: orangered;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.box3 {
+    border-bottom: 2px solid #ADADAD40;
+}
+
+.box3 p {
+    font-size: 10px;
+}
+
+.fourth_page {
+    max-width: 275px;
+    width: 100%;
+    padding: 12px;
+    border-right: 2px solid #ADADAD40;
+    border-left: 2px solid #ADADAD40;
+    transition: all 0.3s ease;
+}
+
+.fourth_page:hover {
+    border-color: #EE5626;
+}
+
+.fourth_page p {
+    font-size: 12px; 
+}
+
+.fourth_page .box {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px; 
+    transition: background-color 0.3s ease;
+}
+
+.fourth_page .box:hover {
+    background-color: #F5F5F5;
+}

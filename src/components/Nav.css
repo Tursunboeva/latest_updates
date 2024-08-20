@@ -1,0 +1,12 @@
+.nav_wrapper{
+    max-width: 971px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_wrapper a{
+    font-size: 24px;
+    padding:  10px 0;
+    font-weight: 700px;
+    font-family:"Poppins", sans-serif;
+    color: black;
+}
